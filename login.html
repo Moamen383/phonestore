@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>إنشاء حساب</title>
+    <style></style>
+    
+<style>
+
+    
+.login-form h2, .register-form h2 {
+	text-align: center;
+	margin-block-end: 20px;
+}
+
+.login-form input, .register-form input {
+	inline-size: 100%;
+	block-size: 40px;
+	margin-block-end: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.login-form button, .register-form button {
+	inline-size: 100%;
+	block-size: 40px;
+	background-color: #00d6f7;
+    ;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login-form button:hover, .register-form button:hover {
+	background-color: #00d6f7;
+}
+
+</style>
+</head>
+<body>
+	<div class="login-form">
+		<h2>تسجيل الدخول</h2>
+		<form id="login-form">
+			<input type="text" id="username" placeholder="اسم المستخدم">
+			<input type="password" id="password" placeholder="كلمة المرور">
+			<button type="submit">تسجيل الدخول</button>
+		</form>
+		<p>ليس لديك حساب؟ <a href="register.html">إنشاء حساب</a></p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
